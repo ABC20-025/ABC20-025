@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+         <title> City Of Milan|Home </title>
+         <link rel="stylesheet" href="style.css">
+
+  </head>
+
+  <body>
+
+    <nav>
+      <!--nav bar links-->
+
+      <ul>
+        <li> <a href="index.html">Home</a></li>
+          <li> <a href="about.html">About Milan</a></li>
+            <li> <a href="lifestyle.html">Lifestyle</a></li>
+              <li> <a href="events.html">Events</a></li>
+                <li> <a href="feedback.html">Connect With Us</a></li>
+                  <li><a href="contacts.html">Contact Us</a></li>
+      </ul>
+
+        <!--logo-->
+      <div class="logo"><a href=#><img src="images\logo3.jpg" ></a>
+      </div>
+
+      <!--menu icon-->
+
+
+
+    </nav>
+
+  <!--slideshow start-->
+    <div class="slideshow-container">
+
+    <div class="mySlides fade">
+    <div class="numbertext">Top Cathedral</div>
+    <img src="images/introo.jpg" style="width:100%; height:570px;">
+    <div class="text">WELCOME TO MILAN! <br> The City of Business & Fashion. </div>
+    </div>
+
+    <div class="mySlides fade">
+    <div class="numbertext">Cathedral</div>
+    <img src="images/intro.jpg" style="width:100%; height:570px;">
+    <div class="text">WELCOME TO MILAN! <br> The City of Business & Fashion.  </div>
+    </div>
+
+    <div class="mySlides fade">
+    <div class="numbertext">City</div>
+    <img src="images/hist1.jpg" style="width:100%; height:570px;">
+    <div class="text">WELCOME TO MILAN! <br> The City of Business & Fashion. </div>
+    </div>
+    </div>
+
+    <br>
+
+<!--->
+    <div style="text-align:center">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+    <!---->
+
+
+  <!-- java script for slideshow -->
+    <script type="text/javascript">
+      var slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+       var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 2500); // Change image every 2 seconds
+      }
+
+    </script>
+
+<!--population-->
+
+<div class="population" style="    max-width: 1280px;  position: relative;
+  margin: auto; ">
+  <h3>Milan City Statistics</h3> <br>
+<div class="row">
+<div class="column" style="background-color:#FFE4C4;">
+  <p style="text-align:center; padding-top:38px;"><b>POPULATION <br>
+1,352,000</p>
+</div>
+
+
+<div class="column" style="background-color:#FFDEAD;">
+  <p style="text-align:center; padding-top:38px;">TOURISTS/YEAR <br>
+8,000,000 </p>
+</div>
+
+
+<div class="column" style="background-color:#F5DEB3;">
+<p style="text-align:center; padding-top:38px;"> RESTAURANTS <br>
+8,785 </p>
+</div>
+
+
+<div class="column" style="background-color:#DEB887;">
+  <p style="text-align:center; padding-top:38px";>EXPENDITURE/DAY <br>
+$135</b></p>
+</div>
+
+</div>
+</div>
+
+<br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+    <ul>
+    <p>  <li> <a href="feedback.html">Connect With Us</a></li> and subscribe for more updates on Milan, Italy. <br>
+    ©2021 Milano City, Designed by Betty Muringwa</p>
+  </ul>
+   </footer>
+  </body>
+</html>
