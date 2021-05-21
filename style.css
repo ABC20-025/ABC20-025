@@ -19,7 +19,7 @@ nav{                                     /*nav code*/
 }
 
 ul{
-margin-left: 500px;                  /*links position*/
+    margin-left: 500px;        /*links position*/
 }
 
 ul li{                        /*link order*/
@@ -33,13 +33,14 @@ ul li a{                           /*link text style */
   text-transform: uppercase;
 font-size: 14px;
 font-family: arial;
-color:white;
+color:pink;
 padding:0 20px;
 }
 
 ul li a:hover{
   color:red;       /*hover on link*/
 }
+
 
 .logo img{                        /*logo position*/
  width:10%;
@@ -247,7 +248,7 @@ input[type=submit]:hover{
 }
 
 
-
+/*end form*/
 
 
 
