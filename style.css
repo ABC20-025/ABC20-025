@@ -269,6 +269,15 @@ input[type=submit]{
   width:70px; height: 30px;
   background-color: #DEB887;
 }
+textarea{
+  width: 40%;
+  padding: 8px 10px;
+  margin: 8px 0 0 300px;                        /*top/right/bottom/left*/
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  height:80px;
+}
 
 input[type=submit]:hover{
   background-color: #F5DEB3;
@@ -277,7 +286,7 @@ input[type=submit]:hover{
 
 /*end form*/
 
-
+/*contact*/
 
 
 

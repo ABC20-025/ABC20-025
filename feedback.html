@@ -37,83 +37,97 @@
   margin-left: auto; margin-right: auto;
   padding-top: 10px; padding-bottom: 50px;">
 
-
 <div class="wrapper">
 
-<p>We would love to your stories about your experiences in Milan, Italy. Send your messages to <br>
-<b>testimonials@tourism.it</b> </p> <br>
 
-<p>Subscribe below to our weekly newsletter of your choice that includes the latest updates on the affairs of Milan and agents: </p>
+          <p><b>Subscribe below to our weekly newsletter of your choice that includes the latest updates on the affairs of Milan and agents: </b></p> <br>
 
-<br><br><br>
+          <form class="" action="thankyou.html"  method="get" >
 
-<form class="" action="thankyou.html"  method="get" >
+          <fieldset>
+            <legend><b><i>Newsletter Subscription Form</i></b></legend> <br>
 
-<fieldset>
-  <legend><b><i>Newsletter Subscription</i></b></legend> <br>
+            <h4 style="text-align:center;">Enter Personal Details:</h4> <br>
 
-  <h4 style="text-align:center;">Enter Personal Details:</h4> <br>
+            <label for="fname" style="margin: 8px 0 0 300px;">First Name:</label> <br>
+          <input required type="text" id="fname" name="fname" placeholder="Your first name.." size="20" > <br><br>
 
-  <label for="fname" style="margin: 8px 0 0 300px;">First Name:</label> <br>
-<input required type="text" id="fname" name="fname" placeholder="Your first name.." size="20" > <br><br>
+          <label for="lname" style="margin: 8px 0 0 300px;">Last Name:</label> <br>
+          <input required type="text" id="lname" name="lname" placeholder="Your last name.."> <br><br>
 
-<label for="lname" style="margin: 8px 0 0 300px;">Last Name:</label> <br>
-<input required type="text" id="lname" name="lname" placeholder="Your last name.."> <br><br>
+          <label for="emailaddress" style="margin: 8px 0 0 300px;">Email Address:</label> <br>
+          <input required type="email" id="emailaddress" name="emailaddress" placeholder="Your email address.." size="30"> <br><br>
 
-<label for="emailaddress" style="margin: 8px 0 0 300px;">Email Address:</label> <br>
-<input required type="email" id="emailaddress" name="emailaddress" placeholder="Your email address.." size="30"> <br><br>
+          <label for="country" style="margin: 8px 0 0 300px;">Country:</label> <br>
+          <input required type="text" id="country" name="country" placeholder="Your country.."> <br><br>
 
-<label for="country" style="margin: 8px 0 0 300px;">Country:</label> <br>
-<input required type="text" id="country" name="country" placeholder="Your country.."> <br><br>
-
-<label for="region" style="margin: 8px 0 0 300px;">Region:</label> <br>
-<input required type="text" id="region" name="region" placeholder="Your region.."> <br><br><br>
+          <label for="region" style="margin: 8px 0 0 300px;">Region:</label> <br>
+          <input required type="text" id="region" name="region" placeholder="Your region.."> <br><br><br>
 
 
 
-<h4 style="text-align:center;">Choose Newsletter of Choice:</h4> <br>
+          <h4 style="text-align:center;">Choose Newsletter of Choice:</h4> <br>
 
-<div class="labeledit">
-  <input type="checkbox" id="Travel" name="Travel" value="" >
-  <label for="Travel">Travel</label> <br>
-</div>
+          <div class="labeledit">
+            <input type="checkbox" id="Travel" name="Travel" value="" >
+            <label for="Travel">Travel</label> <br>
+          </div>
 
-<div class="labeledit">
-  <input type="checkbox" id="Business & Politics" name="Business & Politics" value="">
-  <label for="Business & Politics">Business & Politics</label> <br>
-</div>
+          <div class="labeledit">
+            <input type="checkbox" id="Business & Politics" name="Business & Politics" value="">
+            <label for="Business & Politics">Business & Politics</label> <br>
+          </div>
 
 
-<div class="labeledit">
-  <input type="checkbox" id="Fashion" name="Fashion" value="">
-  <label for="Fashion">Fashion</label> <br>
+          <div class="labeledit">
+            <input type="checkbox" id="Fashion" name="Fashion" value="">
+            <label for="Fashion">Fashion</label> <br>
 
-</div>
+          </div>
 
-<div class="labeledit">
-  <input type="checkbox" id="Events" name="Events" value="">
-  <label for="Events">Events</label> <br>
-</div>
+          <div class="labeledit">
+            <input type="checkbox" id="Events" name="Events" value="">
+            <label for="Events">Events</label> <br>
+          </div>
 
-<div class="labeledit">
-  <input type="checkbox" id="all" name="all" value="">
-  <label for="all">All of the above</label> <br>
-</div>
+          <div class="labeledit">
+            <input type="checkbox" id="all" name="all" value="">
+            <label for="all">All of the above</label> <br>
+          </div>
+
+          <br><br>
+          <input type="submit" value="Submit Form" class="thankyou.html" style="width:120px; height:30px;"> <br><br><br>
+
+
+          </fieldset>
+
+
+
+          </form>
 
 <br><br>
-<input type="submit" value="Submit" class="thankyou.html" > <br><br><br>
 
+          <p>We would love to hear from you and post your stories about your experiences in Milan, Italy. Send your messages to <br>
+          <b>testimonials@tourism.it</b> or fill in the form below for any enquiries and comments:</p> <br>
 
-</fieldset>
-
-
-
-
+          <form class="" action="comment.html" method="post">
 
 
 
+          <label for="Comment" style="margin: 8px 0 0 300px;">Comment:</label>
+          <textarea name="name" rows="8" cols="80" required placeholder="Write Comment..."></textarea>  <br><br>
 
-</form>
+          <label for="" style="margin: 8px 0 0 300px;">Name:</label>
+          <input type="text" name="name"  placeholder="Your name..." required > <br><br>
+
+          <label for="" style="margin: 8px 0 0 300px;">Email:</label>
+          <input type="email" name="email" placeholder="Your email..." required >
+          <br><br>
+          <input type="submit" value="Submit Comment" class="comment.html" style="width:120px; height:30px;"> <br><br><br>
+
+
+                  </form>
+
 
 
 
