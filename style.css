@@ -269,6 +269,14 @@ input[type=submit]{
   width:70px; height: 30px;
   background-color: #DEB887;
 }
+
+input[type=reset]{
+  margin-left:500px;
+  width:70px; height: 30px;
+  background-color: #DEB887;
+}
+
+
 textarea{
   width: 40%;
   padding: 8px 10px;
