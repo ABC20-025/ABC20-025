@@ -41,7 +41,6 @@ ul li a:hover{
   color:red;       /*hover on link*/
 }
 
-
 .logo img{                        /*logo position*/
  width:10%;
 height:100px;
@@ -265,13 +264,13 @@ input[type=email]
 }
 
 input[type=submit]{
-  margin-left:500px;
+  margin-left:200px;
   width:70px; height: 30px;
   background-color: #DEB887;
 }
 
 input[type=reset]{
-  margin-left:500px;
+  margin-left:300px;
   width:70px; height: 30px;
   background-color: #DEB887;
 }
@@ -291,7 +290,9 @@ input[type=submit]:hover{
   background-color: #F5DEB3;
 }
 
-
+input[type=reset]:hover{
+  background-color: #F5DEB3;
+}
 /*end form*/
 
 /*contact icons*/
@@ -312,8 +313,6 @@ input[type=submit]:hover{
 .fa:hover {
     opacity: 0.7;
 }
-
-
 
 
 
