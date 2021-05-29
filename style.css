@@ -267,12 +267,16 @@ input[type=submit]{
   margin-left:200px;
   width:70px; height: 30px;
   background-color: #DEB887;
+  border: 1px solid #ccc;
+  border-radius: 50px;
 }
 
 input[type=reset]{
   margin-left:300px;
   width:70px; height: 30px;
   background-color: #DEB887;
+  border: 1px solid #ccc;
+  border-radius: 50px;
 }
 
 
@@ -288,6 +292,7 @@ textarea{
 
 input[type=submit]:hover{
   background-color: #F5DEB3;
+
 }
 
 input[type=reset]:hover{
