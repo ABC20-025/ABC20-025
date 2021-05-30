@@ -267,7 +267,7 @@ input[type=submit]{
   margin-left:200px;
   width:70px; height: 30px;
   background-color: #DEB887;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   border-radius: 50px;
 }
 
@@ -275,7 +275,7 @@ input[type=reset]{
   margin-left:300px;
   width:70px; height: 30px;
   background-color: #DEB887;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   border-radius: 50px;
 }
 
@@ -313,7 +313,7 @@ input[type=reset]:hover{
   background: #55ACEE; color: white; border-radius: 50%;
 }
 .fa-instagram {
-  background: #125688; color: white; border-radius: 50%;
+  background: #FD1D1D; color: white; border-radius: 50%; padding-left: 16px;
 }
 .fa:hover {
     opacity: 0.7;
