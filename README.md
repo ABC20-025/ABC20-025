@@ -1,7 +1,7 @@
 - 👋 Hi, I’m Betty Precious Muringwa!
 - 👀 I’m interested in database management and backend developement. I'm currently working on my frontend development skills.
-- 🌱 I’m currently doing a science degree in Apllied Business Computing. I've acquired skills in HTML, CSS, JavaScript, C# .Net frameworks and SQL, SQL/PL. 
-- 💞️ I’m looking to collaborate on anything. idk. 
+- 🌱 I’m currently doing a science degree in Applied Business Computing. I've acquired skills in HTML, CSS, JavaScript, C# .Net frameworks and SQL, SQL/PL. 
+- 💞 
 - 📫 How to reach me: email: bettymuringwa97@gmail.com
 
 This is my first website creation. 
